@@ -121,8 +121,8 @@
 
 @media (min-width: 576px) {
     .logo {
-        max-width: 3rem;
-        max-height: 3rem;
+        max-width: 2.25rem;
+        max-height: 2.25rem;
         margin-top: 0.25rem;
         animation: paint 10s infinite, vibrate 3s infinite;
     }
@@ -154,6 +154,13 @@
 }
 
 @media (min-width: 992px) {
+    
+    .logo {
+        max-width: 3rem;
+        max-height: 3rem;
+        margin-top: 0.25rem;
+        animation: paint 10s infinite, vibrate 3s infinite;
+    }
     .main {
         grid-area: main;
         display: grid;
